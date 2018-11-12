@@ -38,9 +38,9 @@
                                 {{--<textarea name="body" id="body" class="form-control" rows="8">{{ old('body') }}</textarea>--}}
                             </div>
 
-                            <div class="form-group">
-                                <div class="g-recaptcha" data-sitekey="6Lc_L3kUAAAAABkcRK1mS_i8AoMXh5bJB0UCOuw2"></div>
-                            </div>
+                            {{--<div class="form-group">--}}
+                                {{--<div class="g-recaptcha" data-sitekey="6Lc_L3kUAAAAABkcRK1mS_i8AoMXh5bJB0UCOuw2"></div>--}}
+                            {{--</div>--}}
 
                             <div class="form-group">
                             <button type="submit" class="btn btn-primary">Publish</button>
