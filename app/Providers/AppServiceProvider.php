@@ -18,10 +18,10 @@ class AppServiceProvider extends ServiceProvider
         // 设置时间中文
         Carbon::setLocale('zh');
         \View::composer('*',function ($view){
-            //$channels = \Cache::rememberForever('channels',function (){
-                //return Channel::all();
-            //});
-            $channels = Channel::all();
+            $channels = \Cache::rememberForever('channels',function (){
+                return Channel::all();
+            });
+//            $channels = Channel::all();
             $view->with('channels',$channels);
         });
 

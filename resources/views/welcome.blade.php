@@ -81,7 +81,7 @@
                 <div class="title m-b-md">
                     Freedom
                     <br />
-                    <h2>Whatever you do, you should do what you most want to do, and what you're best at.</h2>
+                    <span>Whatever you do, you should do what you most want to do, and what you're best at.</span>
                 </div>
             </div>
         </div>
